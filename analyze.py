@@ -146,7 +146,6 @@ class Analyze:
             return final
         return data
 
-
     def _write_html(self):
         html_file = f"<!doctype html><html><head><title>{self.web_title}</title></head><body>"
         for image in os.listdir(self.charts_path):
